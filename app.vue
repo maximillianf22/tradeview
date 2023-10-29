@@ -27,7 +27,6 @@ useHead({
   />
   <NuxtLayout>
     <the-navbar />
-    <hr class="h-[90px]" />
     <NuxtPage />
     <the-footer />
   </NuxtLayout>

@@ -1,7 +1,7 @@
 <template>
   <div class="top-bar pt-6 hidden xl:flex">
     <div
-      class="space-x-20 text-md text-white container mx-auto items-center font-light"
+      class="space-x-12 text-sm text-white container mx-auto items-center font-light"
     >
       <a href="#" class="">Markets</a>
       <a href="#" class=""
