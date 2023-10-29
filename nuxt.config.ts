@@ -14,6 +14,7 @@ export default defineNuxtConfig({
     classSuffix: "",
   },
   i18n: {
+    defaultLocale: "en",
     vueI18n: {
       legacy: false,
       locale: "en",

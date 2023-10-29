@@ -9,7 +9,6 @@
 <script lang="ts" setup>
 interface Props {
   icon: string;
-  required: true;
   title: string;
   description: string;
 }

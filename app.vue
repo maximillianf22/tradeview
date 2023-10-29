@@ -18,30 +18,16 @@ useHead({
     },
   ],
 });
-
-const colorMode = useColorMode();
 </script>
 
 <template>
+  <link
+    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+    rel="stylesheet"
+  />
   <NuxtLayout>
     <the-navbar />
-    <p class="p-4 pb-2">
-      <select
-        v-model="colorMode.preference"
-        class="border w-24 h-8 dark:bg-gray-900 dark:text-white dark:border-gray-700"
-      >
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-      </select>
-    </p>
-    <div>
-      <form>
-        <select v-model="locale">
-          <option value="en">en</option>
-          <option value="es">fr</option>
-        </select>
-      </form>
-    </div>
+    <hr class="h-[90px]" />
     <NuxtPage />
     <the-footer />
   </NuxtLayout>

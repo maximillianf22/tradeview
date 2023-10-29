@@ -10,6 +10,7 @@ import CommuniTradersSection from "~/components/Home/CommuniTradersSection/molec
 import HeroHeader from "~/components/Home/HeroHeader/molecules/HeroHeader.vue";
 import InfoSection from "~/components/Home/InfoSection/molecules/InfoSection.vue";
 import ToolsSection from "~/components/Home/ToolsSection/molecules/ToolsSection.vue";
+
 export default {
   components: { InfoSection, HeroHeader, ToolsSection, CommuniTradersSection },
 };

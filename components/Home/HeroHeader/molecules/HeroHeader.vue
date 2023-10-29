@@ -10,23 +10,15 @@
           Tradeview’s CommuniTraders software lets our partners provide
           value-added copy trading to their clients.
         </h2>
-        <div>
-          <p>Free Download for Tradeview Users</p>
-          <a
-            href="#"
-            class="mt-4 bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
-            >Contact your Broker</a
-          >
-        </div>
-        <div>
-          <p>Don’t have a Tradeview Account yet?</p>
-          <a
-            href="#"
-            class="mt-2 bg-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-400"
-            >Get a Free Demo</a
-          >
-        </div>
+        <call-action-buttons />
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import CallActionButtons from "~/components/Shared/CallActionButtons/CallActionButtons.vue";
+export default {
+  components: { CallActionButtons },
+};
+</script>

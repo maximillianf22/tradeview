@@ -1,12 +1,22 @@
 <template>
-  <div class="relative group">
-    <a href="#" class="text-white group-hover:text-blue-200">Opción 5</a>
+  <div class="top-bar pt-6 hidden xl:flex">
     <div
-      class="hidden absolute left-0 mt-2 space-y-2 bg-white text-gray-700 group-hover:block"
+      class="space-x-20 text-md text-white container mx-auto items-center font-light"
     >
-      <a href="#" class="block px-4 py-2">Submenú 1</a>
-      <a href="#" class="block px-4 py-2">Submenú 2</a>
-      <a href="#" class="block px-4 py-2">Submenú 3</a>
+      <a href="#" class="">Markets</a>
+      <a href="#" class=""
+        >Company <i class="fa fa-chevron-down text-[9px]"></i
+      ></a>
+      <a href="#" class="">Accounts</a>
+      <a href="#" class=""
+        >Platforms <i class="fa fa-chevron-down text-[9px]"></i
+      ></a>
+      <a href="#" class="">Pricing</a>
+      <a href="#" class="">Introducing Brokers</a>
+      <a href="#" class="">Education</a>
+      <a href="#" class=""
+        >Support <i class="fa fa-chevron-down text-[9px]"></i
+      ></a>
     </div>
   </div>
 </template>
@@ -16,3 +26,18 @@ export default {
   name: "TopBar",
 };
 </script>
+
+<style lang="css" scoped>
+.top-bar {
+  height: 100px;
+  background: transparent
+    linear-gradient(
+      180deg,
+      #181f29 0%,
+      #181f29 15%,
+      #181f2960 60%,
+      #181f2900 100%
+    )
+    0% 0% no-repeat padding-box;
+}
+</style>
