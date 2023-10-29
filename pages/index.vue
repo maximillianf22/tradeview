@@ -1,11 +1,15 @@
 <template>
-  <hero-header />
-  <div class="z-1 absolute top-[100vh] w-full">
-    <info-section />
-    <tools-section />
-    <communi-traders-section />
-    <the-footer />
-  </div>
+  <main>
+    <hero-header />
+    <div
+      class="z-1 absolute 2xl:top-[1000px] top-[100vh] w-full max-w-[2300px]"
+    >
+      <info-section />
+      <tools-section />
+      <communi-traders-section />
+      <the-footer />
+    </div>
+  </main>
 </template>
 
 <script>

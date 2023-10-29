@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { locale } = useI18n();
-import TheFooter from "./components/layout/TheFooter.vue";
 import TheNavbar from "./components/layout/TheNavbar.vue";
 
 useHead({
@@ -21,10 +19,6 @@ useHead({
 </script>
 
 <template>
-  <link
-    href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
-    rel="stylesheet"
-  />
   <NuxtLayout>
     <the-navbar />
     <NuxtPage />

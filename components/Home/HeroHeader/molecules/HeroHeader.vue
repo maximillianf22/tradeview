@@ -1,5 +1,5 @@
 <template>
-  <divn class="fixed w-full">
+  <divn class="fixed w-full max-w-[2300px]">
     <div class="h-[100vh] overflow-hidden max-h-[1000px]">
       <div class="mx-auto flex items-center container-fluid">
         <img
@@ -14,7 +14,7 @@
             <img
               src="/images/HeroHeader/title.svg"
               title="Communi Traders"
-              class="mx-auto pb-5 max-w-[300px]"
+              class="mx-auto pb-5 max-w-[100%] md:max-w-[300px]"
             />
 
             <h2
