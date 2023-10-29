@@ -40,5 +40,12 @@
     "clients-can-easily-signup": "Los clientes pueden registrarse fácilmente para comenzar, cambiar proveedores de señales o detener el servicio. No hay bloqueo a largo plazo.",
     "communi-traders-benefits-from-the-same-regulation": "CommuniTraders se beneficia de la misma regulación sólida y los mismos socios bancarios que los clientes independientes de Tradeview disfrutan, junto con transparencia y protección contra saldos negativos.",
     "you-will-experience-the-tradeview-service": "Experimentarás el servicio de Tradeview que conoces y amas, sin trucos ni tarifas ocultas, excelente atención al cliente en vivo y tu gerente de cuentas dedicado."
+  },
+
+  "tools": {
+    "leading-edge-technology": "Tecnología de vanguardia",
+    "easy-to-use-management-tools": "Herramientas de gestión fáciles de usar, nuestra ejecución más rápida posible y spreads tan bajos como 0.0.",
+    "quick-guide-link": "Guía rápida: Manual de usuario web de CommuniTraders",
+    "external-link-icon": "<i class='fas fa-external-link-alt ml-2'></i>"
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <divn class="fixed w-full z-[-1]">
+  <divn class="fixed w-full">
     <div class="h-[100vh] overflow-hidden max-h-[1000px]">
       <div class="mx-auto flex items-center container-fluid">
         <img

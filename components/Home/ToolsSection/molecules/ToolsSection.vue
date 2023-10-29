@@ -1,18 +1,26 @@
 <template>
-  <div class="bg-gray-100 p-8">
-    <div class="container mx-auto flex items-center">
-      <div class="w-1/2">
-        <img src="/path-to-image.png" alt="Imagen" class="max-w-full h-auto" />
-      </div>
-      <div class="w-1/2 pl-8">
-        <h1 class="text-3xl font-bold underline text-primary dark:text-white">
-          Leading Edge Technology
+  <div class="bg-[#f2f2f2] dark:bg-secondary px-3 py-10 lg:px-10">
+    <div
+      class="container mx-auto flex items-center flex-col lg:flex-row text-secondary dark:text-white"
+    >
+      <div class="w-full lg:w-1/2 text-center lg:text-start mb-5 lg:mb-0">
+        <h1 class="text-xl lg:text-2xl font-bold">
+          {{ $t("leading-edge-technology") }}
         </h1>
-        <p class="text-xl text-gray-600">
-          Easy to use management tools, our fastest possible execution and
-          spreads as low as 0.0.
+        <p class="text-md lg:text-xl font-light my-4 lg:max-w-[75%]">
+          {{ $t("easy-to-use-management-tools") }}
         </p>
-        <a href="">Quick Guide: CommuniTraders Web User Manual</a>
+        <a href="" class="text-sm underline font-light">
+          {{ $t("quick-guide-link") }}
+          <span v-html="$t('external-link-icon')"></span>
+        </a>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <img
+          src="/images/ToolsSection/tools.png"
+          alt="Imagen"
+          class="max-w-full h-auto max-h-[300px] lg:max-h-[400px] mx-auto"
+        />
       </div>
     </div>
   </div>

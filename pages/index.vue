@@ -1,9 +1,10 @@
 <template>
   <hero-header />
-  <div class="z-1 pt-[100vh]">
+  <div class="z-1 absolute top-[100vh] w-full">
     <info-section />
     <tools-section />
     <communi-traders-section />
+    <the-footer />
   </div>
 </template>
 
@@ -12,8 +13,15 @@ import CommuniTradersSection from "~/components/Home/CommuniTradersSection/molec
 import HeroHeader from "~/components/Home/HeroHeader/molecules/HeroHeader.vue";
 import InfoSection from "~/components/Home/InfoSection/molecules/InfoSection.vue";
 import ToolsSection from "~/components/Home/ToolsSection/molecules/ToolsSection.vue";
+import TheFooter from "~/components/layout/TheFooter.vue";
 
 export default {
-  components: { InfoSection, HeroHeader, ToolsSection, CommuniTradersSection },
+  components: {
+    InfoSection,
+    HeroHeader,
+    ToolsSection,
+    CommuniTradersSection,
+    TheFooter,
+  },
 };
 </script>

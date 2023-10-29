@@ -42,5 +42,12 @@
     "clients-can-easily-signup": "Clients can easily sign up to start, change signal providers, or stop the service. There is no long-term lockup.",
     "communi-traders-benefits-from-the-same-regulation": "CommuniTraders benefits from the same strong regulation and banking partners standalone Tradeview clients enjoy along with transparency and negative balance protection.",
     "you-will-experience-the-tradeview-service": "You will experience the Tradeview service you know and love, no gimmicks or hidden fees, excellent live customer support, and your dedicated account manager."
+  },
+
+  "tools": {
+    "leading-edge-technology": "Leading Edge Technology",
+    "easy-to-use-management-tools": "Easy to use management tools, our fastest possible execution and spreads as low as 0.0.",
+    "quick-guide-link": "Quick Guide: CommuniTraders Web User Manual",
+    "external-link-icon": "<i class='fas fa-external-link-alt ml-2'></i>"
   }
 }
