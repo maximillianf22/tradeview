@@ -1,8 +1,10 @@
 <template>
   <hero-header />
-  <info-section />
-  <tools-section />
-  <communi-traders-section />
+  <div class="z-1 pt-[100vh]">
+    <info-section />
+    <tools-section />
+    <communi-traders-section />
+  </div>
 </template>
 
 <script>

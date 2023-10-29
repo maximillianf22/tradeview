@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white dark:bg-secondary py-20 px-3">
+  <section class="bg-white dark:bg-secondary py-20 px-3 custom-shadow">
     <div
       class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
     >

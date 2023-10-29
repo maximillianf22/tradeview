@@ -1,6 +1,8 @@
 <template>
-  <h2 class="text-xl text-gray-600">Try CommuniTraders Now!</h2>
-  <call-action-buttons />
+  <div class="bg-[#f2f2f2]">
+    <h2 class="text-xl text-gray-600">Try CommuniTraders Now!</h2>
+    <call-action-buttons />
+  </div>
 </template>
 
 <script>
