@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center justify-center mt-10 text-xs lg:text-sm">
+  <div
+    class="flex items-center justify-center mt-10 text-xs lg:text-sm max-w-[100%] overflow-hidden"
+  >
     <div class="border-r p-3 lg:p-8">
       <p class="text-white font-light">
         {{ $t("call-actions.free-download") }}

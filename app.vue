@@ -2,7 +2,7 @@
 import TheNavbar from "./components/layout/TheNavbar.vue";
 
 useHead({
-  title: "Nuxt3 Starter",
+  title: "CommuniTraders",
   meta: [
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "description", content: "Home page" },

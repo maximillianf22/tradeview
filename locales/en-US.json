@@ -51,5 +51,22 @@
     "external-link-icon": "<i class='fas fa-external-link-alt ml-2'></i>"
   },
 
-  "try-communi-traders-now": "Try CommuniTraders Now!"
+  "try-communi-traders-now": "Try CommuniTraders Now!",
+
+  "footer": {
+    "open-account": "Open Account",
+    "individual": "Individual",
+    "joint": "Joint",
+    "corporate": "Corporate",
+    "about-tradeview": "About Tradeview",
+    "our-story": "Our Story",
+    "our-team": "Our Team",
+    "our-vision": "Our Vision",
+    "company": "Company",
+    "why-tradeview": "Why Tradeview",
+    "sponsorships": "Sponsorships",
+    "press": "Press",
+    "software": "Software",
+    "forms-documents": "Forms & Documents"
+  }
 }

@@ -3,6 +3,12 @@
     <div class="bg-secondary p-4">
       <div class="container mx-auto flex justify-between items-center">
         <div class="flex justify-between items-center">
+          <button
+            @click="openModal"
+            class="bg-transparent block xl:hidden hover:bg-primary text-white border w-[50px] h-[30px] mr-2"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
           <a href="/">
             <img
               src="/images/logo.svg"
@@ -25,14 +31,14 @@
             <a href="#" class="tracking-[.15em]">TradeGATEHub</a>
           </div>
         </div>
-        <div class="hidden lg:flex text-xs font-ligh items-center">
+        <div class="text-xs flex font-ligh items-center">
           <form class="px-4">
-            <a class="bg-secondary text-white font-medium px-2">
+            <a class="bg-secondary text-white font-medium px-2 hidden lg:flex">
               {{ $t("navbar.login") }}
               <i class="fas fa-caret-down text-white my-auto mx-1"></i>
             </a>
           </form>
-          <a href="#" class="text-white px-4 border-l">
+          <a href="#" class="hidden lg:block text-white px-4 border-l">
             {{ $t("navbar.contact-us") }}
           </a>
           <form class="pl-5">
@@ -45,6 +51,7 @@
       </div>
     </div>
     <the-topbar />
+    <the-navbar-menu ref="modal" />
   </nav>
 </template>
 
@@ -52,9 +59,20 @@
 import ThemeToggleButton from "../Shared/ThemeToggleButton/ThemeToggleButton.vue";
 import LanguageToggleButton from "../Shared/LanguageToggleButton/LanguageToggleButton.vue";
 import TheTopbar from "./TheTopbar.vue";
+import TheNavbarMenu from "./atoms/TheNavbarMenu.vue";
 
 export default {
-  components: { TheTopbar, ThemeToggleButton, LanguageToggleButton },
+  components: {
+    TheTopbar,
+    ThemeToggleButton,
+    LanguageToggleButton,
+    TheNavbarMenu,
+  },
   name: "TheNavbar",
+  methods: {
+    openModal() {
+      this.$refs.modal.openModal();
+    },
+  },
 };
 </script>

@@ -1,6 +1,6 @@
 <template>
-  <divn class="fixed w-full max-w-[2300px]">
-    <div class="h-[100vh] overflow-hidden max-h-[1000px]">
+  <div class="md:fixed w-full max-w-[2300px] min-h-[550px]">
+    <div class="h-[100vh] min-h-[550px] overflow-hidden max-h-[1000px]">
       <div class="mx-auto flex items-center container-fluid">
         <img
           src="/images/HeroHeader/bg-hero.png"
@@ -8,7 +8,7 @@
           class="h-screen object-cover w-[45%] max-w-[750px] max-h-[1000px] hidden lg:block"
         />
         <div
-          class="w-full bg-secondary flex-1 h-screen items-center flex max-h-[1000px] pt-10 lg:pt-[150px] px-5 lg:px-0"
+          class="w-full bg-secondary flex-1 h-screen items-center flex max-h-[1000px] pt-10 lg:pt-[150px] px-3 lg:px-0 min-h-[550px]"
         >
           <div class="text-center w-full">
             <img
@@ -29,7 +29,7 @@
         </div>
       </div>
     </div>
-  </divn>
+  </div>
 </template>
 
 <script>

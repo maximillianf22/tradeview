@@ -2,7 +2,7 @@
   <main>
     <hero-header />
     <div
-      class="z-1 absolute 2xl:top-[1000px] top-[100vh] w-full max-w-[2300px]"
+      class="z-1 md:absolute 2xl:top-[1000px] top-[100vh] w-full max-w-[2300px]"
     >
       <info-section />
       <tools-section />
