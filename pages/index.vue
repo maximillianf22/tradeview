@@ -1,11 +1,16 @@
 <template>
-  <div class="dark:bg-[red] h-[50px] bg-blue-50">
-    <h1 class="text-3xl font-bold underline">{{ $t("welcome") }}</h1>
-  </div>
+  <hero-header />
+  <info-section />
+  <tools-section />
+  <communi-traders-section />
 </template>
 
 <script>
+import CommuniTradersSection from "~/components/Home/CommuniTradersSection/molecules/CommuniTradersSection.vue";
+import HeroHeader from "~/components/Home/HeroHeader/molecules/HeroHeader.vue";
+import InfoSection from "~/components/Home/InfoSection/molecules/InfoSection.vue";
+import ToolsSection from "~/components/Home/ToolsSection/molecules/ToolsSection.vue";
 export default {
-  components: {},
+  components: { InfoSection, HeroHeader, ToolsSection, CommuniTradersSection },
 };
 </script>

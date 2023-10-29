@@ -8,9 +8,9 @@ export const additionalMessages = Object({})
 export const resolveNuxtI18nOptions = async (context) => {
   const nuxtI18nOptions = Object({})
   const vueI18nOptionsLoader = async (context) => Object({"legacy":false,"locale":"en","fallbackLocale":"en","availableLocales":["en","es"],"messages": Object({"en":{
-  "welcome": (ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Welcome to My Landing Page"])}
+  "welcome": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Welcome to My Landing Page"])};fn.source="Welcome to My Landing Page";return fn;})()
 },"es":{
-  "welcome": (ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Bienvenido"])}
+  "welcome": (()=>{const fn=(ctx) => {const { normalize: _normalize } = ctx;return _normalize(["Bienvenido"])};fn.source="Bienvenido";return fn;})()
 },}),})
   nuxtI18nOptions.vueI18n = await vueI18nOptionsLoader(context)
   nuxtI18nOptions.locales = []

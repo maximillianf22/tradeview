@@ -1,5 +1,7 @@
 <script setup lang="ts">
 const { locale } = useI18n();
+import TheFooter from "./components/layout/TheFooter.vue";
+import TheNavbar from "./components/layout/TheNavbar.vue";
 
 useHead({
   title: "Nuxt3 Starter",
@@ -22,6 +24,7 @@ const colorMode = useColorMode();
 
 <template>
   <NuxtLayout>
+    <the-navbar />
     <p class="p-4 pb-2">
       <select
         v-model="colorMode.preference"
@@ -40,6 +43,7 @@ const colorMode = useColorMode();
       </form>
     </div>
     <NuxtPage />
+    <the-footer />
   </NuxtLayout>
 </template>
 
