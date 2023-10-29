@@ -22,9 +22,9 @@ const colorMode = useColorMode();
         </div>
         <div class="hidden lg:flex text-xs font-light">
           <form class="px-4">
-            <select class="bg-secondary text-white font-medium px-2">
-              <option value="en">Log in</option>
-            </select>
+            <a class="bg-secondary text-white font-medium px-2">
+              Log in <i class="fa fa-chevron-down text-[10px] ml-2"></i
+            ></a>
           </form>
           <a href="#" class="text-white px-4 border-l">Contact Us</a>
           <form class="pl-5">

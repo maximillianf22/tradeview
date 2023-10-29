@@ -1,8 +1,12 @@
 <template>
-  <div class="bg-white p-4 rounded-md shadow-md">
-    <div class="text-3xl text-blue-500">{{ props.icon }}</div>
-    <h3 class="text-xl font-semibold mt-4">{{ props.title }}</h3>
-    <p class="mt-2 text-gray-600">{{ props.description }}</p>
+  <div class="bg-white p-7 rounded-md custom-card">
+    <img :src="props.icon" :alt="props.title" />
+    <h3 class="text-md lg:text-lg font-bold mt-4 text-primary">
+      {{ props.title }}
+    </h3>
+    <p class="mt-2 font-light text-[#363636] text-sm lg:text-md">
+      {{ props.description }}
+    </p>
   </div>
 </template>
 
@@ -15,3 +19,10 @@ interface Props {
 
 const props = defineProps<Props>();
 </script>
+
+<style>
+.custom-card {
+  box-shadow: 0px 0px 30px #00000014;
+  opacity: 1;
+}
+</style>
