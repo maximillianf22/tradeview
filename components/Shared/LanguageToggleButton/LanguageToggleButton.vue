@@ -8,8 +8,6 @@
 
 <script setup>
 const { locale } = useI18n();
-const locales = ["en", "es"];
-
 const toggleLocale = (event) => {
   event.preventDefault();
   locale.value = locale.value === "en" ? "es" : "en";
