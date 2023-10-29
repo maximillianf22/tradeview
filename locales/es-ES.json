@@ -1,3 +1,44 @@
 {
-  "futures": "FUTUROS"
+  "navbar": {
+    "forex": "Divisas",
+    "stocks": "Acciones",
+    "futures": "Futuros",
+    "login": "Iniciar Sesion",
+    "contact-us": "Contactanos"
+  },
+
+  "topbar": {
+    "markets": "Mercados",
+    "company": "Empresa",
+    "accounts": "Cuentas",
+    "platforms": "Plataformas",
+    "pricing": "Precios",
+    "introducing-brokers": "Introduccion Brokers",
+    "education": "Educación",
+    "support": "Asistencia"
+  },
+  "header": {
+    "header-intro": "Permite a nuestros socios ofrecer a sus clientes servicios de copy trading de valor añadido."
+  },
+  "call-actions": {
+    "free-download": "Descarga gratuita para usuarios Tradeview",
+    "contact-broker": "Contacta a tu Broker",
+    "dont-have-account": "¿Aun no tienes una cuenta Tradeview?",
+    "get-demo": "Obtén una demo gratis"
+  },
+
+  "info-cards": {
+    "ideal-for-beginner-clients": "Ideal para clientes principiantes",
+    "low-barriers-to-entry": "Barreras de entrada bajas",
+    "simple-interface": "Interfaz sencilla",
+    "no-long-term-commitments": "Sin compromisos a largo plazo",
+    "funds-safety": "Seguridad de fondos",
+    "tradeview-runs-communi-trader": "Tradeview administra CommuniTrader",
+    "increase-trading-volumes": "Aumenta el volumen de negociación a medida que los nuevos operadores adquieren confianza siguiendo a operadores exitosos en los mercados de divisas y más allá, incluyendo acciones, opciones, materias primas y más…",
+    "communi-traders-software-is-free": "El software CommuniTraders es gratuito y los clientes pueden comenzar con una inversión mínima de solo $100.",
+    "a-simple-gui-provides-needed-features": "Una interfaz gráfica de usuario simple proporciona las características y herramientas necesarias sin sobrecargarse con características no esenciales. Esto permite que los clientes se configuren rápidamente y comiencen a operar.",
+    "clients-can-easily-signup": "Los clientes pueden registrarse fácilmente para comenzar, cambiar proveedores de señales o detener el servicio. No hay bloqueo a largo plazo.",
+    "communi-traders-benefits-from-the-same-regulation": "CommuniTraders se beneficia de la misma regulación sólida y los mismos socios bancarios que los clientes independientes de Tradeview disfrutan, junto con transparencia y protección contra saldos negativos.",
+    "you-will-experience-the-tradeview-service": "Experimentarás el servicio de Tradeview que conoces y amas, sin trucos ni tarifas ocultas, excelente atención al cliente en vivo y tu gerente de cuentas dedicado."
+  }
 }

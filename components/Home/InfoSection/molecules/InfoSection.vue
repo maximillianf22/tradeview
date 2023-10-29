@@ -7,8 +7,8 @@
         v-for="infoCard in infoCards"
         :key="infoCard.name"
         :icon="infoCard.icon"
-        :title="infoCard.title"
-        :description="infoCard.description"
+        :title="$t(infoCard.title)"
+        :description="$t(infoCard.description)"
       />
     </div>
   </section>
@@ -23,40 +23,35 @@ export default {
     return {
       infoCards: [
         {
-          title: "Ideal for Beginner Clients",
+          title: "info-cards.ideal-for-beginner-clients",
           icon: "/images/InfoSection/icons/leaft.svg",
-          description:
-            "Increase trading volumes as new traders gain comfort by following successful traders in forex markets and beyond into stocks, options, commodities, and more…",
+          description: "info-cards.increase-trading-volumes",
         },
         {
-          title: "Low Barriers to Entry",
+          title: "info-cards.low-barriers-to-entry",
           icon: "/images/InfoSection/icons/lock.svg",
-          description:
-            "CommuniTraders software is free and clients can start with just a $100 minimum investment.",
+          description: "info-cards.communi-traders-software-is-free",
         },
         {
-          title: "Simple Interface",
+          title: "info-cards.simple-interface",
           icon: "/images/InfoSection/icons/magic.svg",
-          description:
-            "A simple GUI provides needed features and tools but isn’t bogged down by non-core features. This allows clients to get setup quickly and start trading.",
+          description: "info-cards.a-simple-gui-provides-needed-features",
         },
         {
-          title: "No Long-Term Commitments",
+          title: "info-cards.no-long-term-commitments",
           icon: "/images/InfoSection/icons/link.svg",
-          description:
-            "Clients can easily signup to start, change signal providers, or stop the service. There is no long-term lockup.",
+          description: "info-cards.clients-can-easily-signup",
         },
         {
-          title: "Funds Safety",
+          title: "info-cards.funds-safety",
           icon: "/images/InfoSection/icons/shield.svg",
           description:
-            "CommuniTraders benefits from the same strong regulation and banking partners standalone Tradeview clients enjoy along with transparency and negative balance protection.",
+            "info-cards.communi-traders-benefits-from-the-same-regulation",
         },
         {
-          title: "Tradeview Runs CommuniTrader",
+          title: "info-cards.tradeview-runs-communi-trader",
           icon: "/images/InfoSection/icons/quality.svg",
-          description:
-            "You will experience the Tradeview service you know and love, no gimmicks or hidden fees, excellent live customer support, and your dedicated account manager.",
+          description: "info-cards.you-will-experience-the-tradeview-service",
         },
       ],
     };

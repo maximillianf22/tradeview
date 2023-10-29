@@ -1,3 +1,46 @@
 {
-  "futures": "FUTURES"
+  "navbar": {
+    "forex": "Forex",
+    "stocks": "Stocks",
+    "futures": "Futures",
+    "login": "Log In",
+    "contact-us": "Contact Us"
+  },
+
+  "topbar": {
+    "markets": "Markets",
+    "company": "Company",
+    "accounts": "Accounts",
+    "platforms": "Platforms",
+    "pricing": "Pricing",
+    "introducing-brokers": "Introducing Brokers",
+    "education": "Education",
+    "support": "Support"
+  },
+
+  "header": {
+    "header-intro": "Software lets our partners provide value-added copy trading to their clients."
+  },
+
+  "call-actions": {
+    "free-download": "Free Download for Tradeview Users",
+    "contact-broker": "Contact your Broker",
+    "dont-have-account": "Don’t have a Tradeview Account yet?",
+    "get-demo": "Get a Free Demo"
+  },
+
+  "info-cards": {
+    "ideal-for-beginner-clients": "Ideal for Beginner Clients",
+    "low-barriers-to-entry": "Low Barriers to Entry",
+    "simple-interface": "Simple Interface",
+    "no-long-term-commitments": "No Long-Term Commitments",
+    "funds-safety": "Funds Safety",
+    "tradeview-runs-communi-trader": "Tradeview Runs CommuniTrader",
+    "increase-trading-volumes": "Increase trading volumes as new traders gain comfort by following successful traders in forex markets and beyond into stocks, options, commodities, and more…",
+    "communi-traders-software-is-free": "CommuniTraders software is free and clients can start with just a $100 minimum investment.",
+    "a-simple-gui-provides-needed-features": "A simple GUI provides needed features and tools but isn’t bogged down by non-core features. This allows clients to get set up quickly and start trading.",
+    "clients-can-easily-signup": "Clients can easily sign up to start, change signal providers, or stop the service. There is no long-term lockup.",
+    "communi-traders-benefits-from-the-same-regulation": "CommuniTraders benefits from the same strong regulation and banking partners standalone Tradeview clients enjoy along with transparency and negative balance protection.",
+    "you-will-experience-the-tradeview-service": "You will experience the Tradeview service you know and love, no gimmicks or hidden fees, excellent live customer support, and your dedicated account manager."
+  }
 }

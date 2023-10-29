@@ -3,20 +3,23 @@
     <div
       class="space-x-12 text-sm text-white container mx-auto items-center font-light"
     >
-      <a href="#" class="">Markets</a>
-      <a href="#" class=""
-        >Company <i class="fa fa-chevron-down text-[9px]"></i
-      ></a>
-      <a href="#" class="">Accounts</a>
-      <a href="#" class=""
-        >Platforms <i class="fa fa-chevron-down text-[9px]"></i
-      ></a>
-      <a href="#" class="">Pricing</a>
-      <a href="#" class="">Introducing Brokers</a>
-      <a href="#" class="">Education</a>
-      <a href="#" class=""
-        >Support <i class="fa fa-chevron-down text-[9px]"></i
-      ></a>
+      <a href="#">{{ $t("topbar.markets") }}</a>
+      <a href="#">
+        {{ $t("topbar.company") }}
+        <i class="fa fa-chevron-down text-[9px]"></i>
+      </a>
+      <a href="#">{{ $t("topbar.accounts") }}</a>
+      <a href="#">
+        {{ $t("topbar.platforms") }}
+        <i class="fa fa-chevron-down text-[9px]"></i>
+      </a>
+      <a href="#">{{ $t("topbar.pricing") }}</a>
+      <a href="#">{{ $t("topbar.introducing-brokers") }}</a>
+      <a href="#">{{ $t("topbar.education") }}</a>
+      <a href="#">
+        {{ $t("topbar.support") }}
+        <i class="fa fa-chevron-down text-[9px]"></i>
+      </a>
     </div>
   </div>
 </template>

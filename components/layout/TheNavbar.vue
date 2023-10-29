@@ -13,21 +13,28 @@
           <div
             class="hidden xl:flex space-x-8 font-bold text-sm ml-20 text-white"
           >
-            <a href="#" class="uppercase tracking-[.25em]">Forex</a>
-            <a href="#" class="uppercase tracking-[.25em]">Stocks</a>
-            <a href="#" class="uppercase tracking-[.25em]">{{
-              $t("futures")
-            }}</a>
+            <a href="#" class="uppercase tracking-[.25em]">
+              {{ $t("navbar.forex") }}
+            </a>
+            <a href="#" class="uppercase tracking-[.25em]">
+              {{ $t("navbar.stocks") }}
+            </a>
+            <a href="#" class="uppercase tracking-[.25em]">
+              {{ $t("navbar.futures") }}
+            </a>
             <a href="#" class="tracking-[.15em]">TradeGATEHub</a>
           </div>
         </div>
-        <div class="hidden lg:flex text-xs font-ligh items-centert">
+        <div class="hidden lg:flex text-xs font-ligh items-center">
           <form class="px-4">
             <a class="bg-secondary text-white font-medium px-2">
-              Log in <i class="fas fa-caret-down text-white my-auto mx-1"></i>
+              {{ $t("navbar.login") }}
+              <i class="fas fa-caret-down text-white my-auto mx-1"></i>
             </a>
           </form>
-          <a href="#" class="text-white px-4 border-l">Contact Us</a>
+          <a href="#" class="text-white px-4 border-l">
+            {{ $t("navbar.contact-us") }}
+          </a>
           <form class="pl-5">
             <language-toggle-button />
           </form>

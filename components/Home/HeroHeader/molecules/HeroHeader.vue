@@ -21,8 +21,8 @@
               class="text-lg lg:text-2xl text-white mt-10 border-t max-w-[500px] mx-auto font-light p-2"
             >
               Tradeview’s
-              <span class="font-black">CommuniTraders</span> software lets our
-              partners provide value-added copy trading to their clients.
+              <span class="font-black">CommuniTraders</span>
+              {{ $t("header.header-intro") }}
             </h2>
             <call-action-buttons />
           </div>
