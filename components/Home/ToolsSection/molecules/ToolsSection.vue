@@ -22,6 +22,7 @@
           alt="Imagen"
           title="Tools"
           class="max-w-full h-auto max-h-[300px] lg:max-h-[400px] mx-auto"
+          height="400px"
         />
       </div>
     </div>

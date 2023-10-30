@@ -15,7 +15,8 @@
             <NuxtImg
               src="/images/logo.svg"
               alt="Logo"
-              class="h-[30px] lg:h-[45px] w-auto"
+              class="lg:h-[45px] w-auto"
+              height="30px"
             />
           </a>
           <div

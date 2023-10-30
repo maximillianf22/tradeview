@@ -7,6 +7,7 @@
             src="https://tradeviewmena.com/_nuxt/img/logo_white.39795f1.svg"
             alt="Tradeview Ltd Logo"
             class="max-h-[60px] w-auto"
+            height="60px"
           />
         </a>
       </div>
@@ -86,6 +87,7 @@
               src="https://tradeviewmena.com/_nuxt/img/surfs-up-gray.980ff4e.svg"
               alt="Subscribe to Surf's Up"
               class="max-w-[200px] mx-auto lg:mr-10"
+              width="200px"
             />
           </a>
           <p class="pr-0 lg:pl-10 my-auto font-light mt-5 lg:mt-0">

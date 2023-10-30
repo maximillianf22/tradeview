@@ -16,6 +16,8 @@
               src="/images/HeroHeader/title.svg"
               title="Communi Traders"
               class="mx-auto pb-5 max-w-[100%] md:max-w-[300px]"
+              height="105px"
+              width="300px"
             />
             <h1 class="hidden">Tradeview’s CommuniTraders</h1>
             <h2
