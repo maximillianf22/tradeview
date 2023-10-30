@@ -22,8 +22,8 @@ useHead({
 </script>
 
 <template>
-  <html lang="en-US">
+  <NuxtLayout>
     <the-navbar />
     <NuxtPage />
-  </html>
+  </NuxtLayout>
 </template>
