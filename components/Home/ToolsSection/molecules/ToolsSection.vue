@@ -4,13 +4,13 @@
       class="container mx-auto flex items-center flex-col lg:flex-row text-secondary dark:text-white"
     >
       <div class="w-full lg:w-1/2 text-center lg:text-start mb-5 lg:mb-0">
-        <h1 class="text-xl lg:text-2xl font-bold">
+        <h2 class="text-xl lg:text-2xl font-bold">
           {{ $t("tools.leading-edge-technology") }}
-        </h1>
+        </h2>
         <p class="text-md lg:text-xl font-light my-4 lg:max-w-[75%]">
           {{ $t("tools.easy-to-use-management-tools") }}
         </p>
-        <a href="" class="text-sm underline font-light">
+        <a href="#" class="text-sm underline font-light">
           {{ $t("tools.quick-guide-link") }}
           <span v-html="$t('tools.external-link-icon')"></span>
         </a>

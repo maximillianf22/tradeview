@@ -15,11 +15,13 @@
           <b class="font-medium">Tradeview Markets</b> | Grand Cayman, KY1-1002,
           4th Floor Harbour Place | 103 South Church St, PO Box 1105
         </li>
-        <li><b class="font-medium">Main Oﬃce:</b> +1 345 945 6271</li>
+        <li><b class="font-medium">Main Office:</b> +1 345 945 6271</li>
         <li><b class="font-medium">Direct Phone:</b> +1 345 946 4532</li>
         <li>
           <b class="font-medium">Website:</b>
-          <a href="#" class="underline ml-2">www.tvmarkets.com</a>
+          <a href="http://www.tvmarkets.com" class="underline ml-2"
+            >www.tvmarkets.com</a
+          >
         </li>
       </ul>
       <div class="mb-10">
@@ -27,22 +29,44 @@
           Find us on:
         </p>
         <div class="flex text-2xl space-x-4">
-          <a href="https://twitter.com/Tradeview_" target="_blank">
+          <a
+            href="https://twitter.com/Tradeview_"
+            target="_blank"
+            id="twitter-link"
+            aria-label="Twitter"
+          >
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="https://www.facebook.com/TradeviewMarkets/" target="_blank">
+          <a
+            href="https://www.facebook.com/TradeviewMarkets/"
+            target="_blank"
+            id="facebook-link"
+            aria-label="Facebook"
+          >
             <i class="fab fa-facebook-f"></i>
           </a>
           <a
             href="https://www.linkedin.com/company/tradeview-forex/"
             target="_blank"
+            id="linkedin-link"
+            aria-label="LinkedIn"
           >
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://www.instagram.com/tradeviewmarkets/" target="_blank">
+          <a
+            href="https://www.instagram.com/tradeviewmarkets/"
+            target="_blank"
+            id="instagram-link"
+            aria-label="Instagram"
+          >
             <i class="fab fa-instagram"></i>
           </a>
-          <a href="https://www.youtube.com/user/tradeviewforex" target="_blank">
+          <a
+            href="https://www.youtube.com/user/tradeviewforex"
+            target="_blank"
+            id="youtube-link"
+            aria-label="YouTube"
+          >
             <i class="fab fa-youtube"></i>
           </a>
         </div>
@@ -55,6 +79,8 @@
             href="https://surfsup.tradeviewforex.com/?__hstc=81638664.feda5e4a297474292dcce7c613eeb873.1697738200615.1698550222886.1698605516547.6&amp;__hssc=81638664.1.1698605516547&amp;__hsfp=1336771869"
             target="_blank"
             class="lg:border-r"
+            id="subscribe-link"
+            aria-label="Subscribe to Surf's Up"
           >
             <img
               src="https://tradeviewmena.com/_nuxt/img/surfs-up-gray.980ff4e.svg"
@@ -84,61 +110,95 @@
         <ul
           class="hidden md:block font-light space-y-4 underline text-gray-400 text-md tracking-[.25em]"
         >
-          <li>{{ $t("navbar.forex") }}</li>
-          <li>{{ $t("navbar.stocks") }}</li>
-          <li>TradeGATEHub</li>
-          <li>{{ $t("topbar.markets") }}</li>
-          <li>{{ $t("topbar.pricing") }}</li>
-          <li>{{ $t("topbar.introducing-brokers") }}</li>
-          <li>{{ $t("topbar.education") }}</li>
-          <li>{{ $t("navbar.contact-us") }}</li>
+          <li>
+            <a href="#">{{ $t("navbar.forex") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("navbar.stocks") }}</a>
+          </li>
+          <li><a href="#">TradeGATEHub</a></li>
+          <li>
+            <a href="#">{{ $t("topbar.markets") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("topbar.pricing") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("topbar.introducing-brokers") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("topbar.education") }}</a>
+          </li>
+          <li>
+            <a href="#">{{ $t("navbar.contact-us") }}</a>
+          </li>
         </ul>
         <div>
           <ul class="font-light space-y-4 text-gray-200 text-md">
             <li class="uppercase tracking-[.25em] text-gray-400">
-              {{ $t("topbar.accounts") }}
+              <a href="#">{{ $t("topbar.accounts") }}</a>
             </li>
-            <li>{{ $t("footer.open-account") }}</li>
-            <li>{{ $t("footer.individual") }}</li>
-            <li>{{ $t("footer.joint") }}</li>
-            <li>{{ $t("footer.corporate") }}</li>
+            <li>
+              <a href="#">{{ $t("footer.open-account") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.individual") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.joint") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.corporate") }}</a>
+            </li>
           </ul>
           <ul class="font-light mt-10 space-y-4 text-gray-200 text-md">
             <li class="uppercase tracking-[.25em] text-gray-400">
-              {{ $t("footer.about-tradeview") }}
+              <a href="#">{{ $t("footer.about-tradeview") }}</a>
             </li>
-            <li>{{ $t("footer.our-story") }}</li>
-            <li>{{ $t("footer.our-team") }}</li>
-            <li>{{ $t("footer.our-vision") }}</li>
+            <li>
+              <a href="#">{{ $t("footer.our-story") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.our-team") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.our-vision") }}</a>
+            </li>
           </ul>
           <ul class="font-light mt-10 space-y-4 text-gray-200 text-md">
             <li class="uppercase tracking-[.25em] text-gray-400">
-              {{ $t("footer.company") }}
+              <a href="#">{{ $t("footer.company") }}</a>
             </li>
-            <li>{{ $t("footer.why-tradeview") }}</li>
-            <li>{{ $t("footer.sponsorships") }}</li>
-            <li>{{ $t("footer.press") }}</li>
+            <li>
+              <a href="#">{{ $t("footer.why-tradeview") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.sponsorships") }}</a>
+            </li>
+            <li>
+              <a href="#">{{ $t("footer.press") }}</a>
+            </li>
           </ul>
         </div>
         <div>
           <ul class="font-light space-y-4 text-gray-200 text-md">
             <li class="uppercase tracking-[.25em] text-gray-400">
-              {{ $t("footer.software") }}
+              <a href="#">{{ $t("footer.software") }}</a>
             </li>
-            <li>MetaTrader 4</li>
-            <li>MetaTrader 5</li>
-            <li>cTrader</li>
-            <li>cTraderCopy</li>
-            <li>cCurreneX</li>
+            <li><a href="#">MetaTrader 4</a></li>
+            <li><a href="#">MetaTrader 5</a></li>
+            <li><a href="#">cTrader</a></li>
+            <li><a href="#">cTraderCopy</a></li>
+            <li><a href="#">cCurreneX</a></li>
           </ul>
           <ul class="font-light mt-10 space-y-4 text-gray-200 text-md">
             <li class="uppercase tracking-[.25em] text-gray-400">
-              {{ $t("topbar.support") }}
+              <a href="#">{{ $t("topbar.support") }}</a>
             </li>
-            <li></li>
-
-            <li>{{ $t("footer.forms-documents") }}</li>
-            <li>FAQ</li>
+            <li>
+              <a href="#">{{ $t("footer.forms-documents") }}</a>
+            </li>
+            <li><a href="#">FAQ</a></li>
           </ul>
         </div>
       </div>

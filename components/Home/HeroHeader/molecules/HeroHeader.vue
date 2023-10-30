@@ -16,7 +16,7 @@
               title="Communi Traders"
               class="mx-auto pb-5 max-w-[100%] md:max-w-[300px]"
             />
-
+            <h1 class="hidden">Tradeview’s CommuniTraders</h1>
             <h2
               class="text-lg lg:text-2xl text-white mt-10 border-t max-w-[500px] mx-auto font-light p-2"
             >

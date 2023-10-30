@@ -27,9 +27,10 @@
               href="https://www.tradeviewforex.com/"
               target="_blank"
               class="underline"
+              id="tradeview-website"
+              aria-label="Tradeview Ltd. Website"
+              >www.tradeviewforex.com</a
             >
-              www.tradeviewforex.com
-            </a>
           </div>
         </div>
         <div>
@@ -39,7 +40,11 @@
           <p>
             Is licensed as a Category 2 Investment Service Company and is
             regulated by the Malta Financial Services Authority (MFSA).
-            <a href="" class="underline"
+            <a
+              href="#"
+              class="underline"
+              id="mfsa-link"
+              aria-label="The Malta Financial Services Authority"
               >The Malta Financial Services Authority</a
             >
             (MFSA) is the single regulator for financial services in Malta. MFSA
@@ -60,12 +65,13 @@
           <div class="text-gray-200">
             <span class="font-medium">Website:</span>
             <a
-              href="https:// www.tradeview.eu/"
+              href="https://www.tradeview.eu/"
               target="_blank"
               class="underline"
+              id="tradeview-europe-website"
+              aria-label="Tradeview Europe Ltd. Website"
+              >www.tradeview.eu</a
             >
-              www.tradeview.eu
-            </a>
           </div>
         </div>
         <div>
@@ -88,9 +94,10 @@
               href="https://www.ilcbrokers.com/"
               target="_blank"
               class="underline"
+              id="ilc-brokers-website"
+              aria-label="iLC Brokers Ltd. Website"
+              >www.ilcbrokers.com</a
             >
-              www.ilcbrokers.com
-            </a>
           </div>
         </div>
       </div>
@@ -118,9 +125,10 @@
               href="https://www.tvmgloballtd.com/"
               target="_blank"
               class="underline"
+              id="tvm-global-website"
+              aria-label="TVM Global Ltd. Website"
+              >www.tvmgloballtd.com</a
             >
-              www.tvmgloballtd.com
-            </a>
           </div>
         </div>
         <div>
@@ -146,9 +154,10 @@
               href="https://www.tradeviewlatam.com/"
               target="_blank"
               class="underline"
+              id="tradeview-latam-website"
+              aria-label="Tradeview Financial Markets S.A.C Global Website"
+              >www.tradeviewlatam.com</a
             >
-              www.tradeviewlatam.com
-            </a>
           </div>
         </div>
         <div>
@@ -170,9 +179,10 @@
               href="https://www.tradeview.co.uk/"
               target="_blank"
               class="underline"
+              id="tradeview-uk-website"
+              aria-label="TVCM Limited (Tradeview UK) Website"
+              >www.tradeview.co.uk</a
             >
-              www.tradeview.co.uk
-            </a>
           </div>
         </div>
       </div>

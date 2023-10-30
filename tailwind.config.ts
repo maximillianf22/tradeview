@@ -14,7 +14,7 @@ export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        primary: "#FF0000",
+        primary: "#EB0000",
         secondary: "#181F29",
       },
     },
