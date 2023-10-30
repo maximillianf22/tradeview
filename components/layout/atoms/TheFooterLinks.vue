@@ -4,7 +4,7 @@
       <div class="">
         <a href="/en" class="" aria-current="page">
           <NuxtImg
-            src="https://tradeviewmena.com/_nuxt/img/logo_white.39795f1.svg"
+            src="/images/Footer/logo-white.svg"
             alt="Tradeview Ltd Logo"
             class="max-h-[60px] w-auto"
             height="60px"
@@ -84,7 +84,7 @@
             aria-label="Subscribe to Surf's Up"
           >
             <NuxtImg
-              src="https://tradeviewmena.com/_nuxt/img/surfs-up-gray.980ff4e.svg"
+              src="/images/Footer/surfs-up.svg"
               alt="Subscribe to Surf's Up"
               class="max-w-[200px] mx-auto lg:mr-10"
               width="200px"
