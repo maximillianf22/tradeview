@@ -8,11 +8,11 @@
 const colorMode = useColorMode();
 
 const toggleMode = () => {
-  colorMode.preference = colorMode.preference === "dark" ? "light" : "dark";
+  colorMode.preference = colorMode.preference !== "light" ? "light" : "dark";
 };
 
 const iconClass = computed(() => {
-  return colorMode.preference === "dark"
+  return colorMode.preference !== "light"
     ? "fa fa-sun text-yellow-400"
     : "fa fa-moon text-white";
 });

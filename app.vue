@@ -5,8 +5,11 @@ useHead({
   title: "CommuniTraders",
   meta: [
     { name: "viewport", content: "width=device-width, initial-scale=1" },
-    { name: "description", content: "Home page" },
-    { name: "keywords", content: "Home" },
+    {
+      name: "description",
+      content:
+        "Tradeview's raw ECN pricing has ZERO markups, offering a very low commission cost of $2.50 per standard lot, per side.",
+    },
   ],
   link: [
     {
@@ -24,9 +27,3 @@ useHead({
     <NuxtPage />
   </NuxtLayout>
 </template>
-
-<style lang="postcss">
-body {
-  @apply min-h-screen bg-white dark:bg-gray-800 dark:text-gray-200;
-}
-</style>
