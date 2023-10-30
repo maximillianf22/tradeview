@@ -2,8 +2,9 @@
   <div class="md:fixed w-full max-w-[2300px] min-h-[550px]">
     <div class="h-[100vh] min-h-[550px] overflow-hidden max-h-[1000px]">
       <div class="mx-auto flex items-center container-fluid">
-        <img
-          src="/images/HeroHeader/bg-hero.png"
+        <NuxtImg
+          format="webp"
+          src="/images/HeroHeader/bg-hero.webp"
           alt="Imagen"
           class="h-screen object-cover w-[45%] max-w-[750px] max-h-[1000px] hidden lg:block"
         />

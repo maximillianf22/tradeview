@@ -3,7 +3,7 @@
     <div class="w-full lg:w-1/2">
       <div class="">
         <a href="/en" class="" aria-current="page">
-          <img
+          <NuxtImg
             src="https://tradeviewmena.com/_nuxt/img/logo_white.39795f1.svg"
             alt="Tradeview Ltd Logo"
             class="max-h-[60px] w-auto"
@@ -82,7 +82,7 @@
             id="subscribe-link"
             aria-label="Subscribe to Surf's Up"
           >
-            <img
+            <NuxtImg
               src="https://tradeviewmena.com/_nuxt/img/surfs-up-gray.980ff4e.svg"
               alt="Subscribe to Surf's Up"
               class="max-w-[200px] mx-auto lg:mr-10"

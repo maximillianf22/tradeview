@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white dark:bg-[#202a37] p-7 rounded-0 custom-shadow">
-    <img :src="props.icon" :alt="props.title" />
+    <NuxtImg :src="props.icon" :alt="props.title" width="50px" height="50px" />
     <h3 class="text-md lg:text-lg font-bold mt-4 text-primary">
       {{ props.title }}
     </h3>

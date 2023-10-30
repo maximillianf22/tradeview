@@ -3,7 +3,7 @@
     @click="toggleLocale"
     class="text-white flex"
     id="language-toggle-button"
-    aria-label="{{ locale === 'en' ? 'Switch to Spanish' : 'Cambiar a inglés' }}"
+    aria-label="language toggle button"
   >
     {{ locale === "en" ? "English" : "Español" }}
     <i class="fas fa-globe text-white my-auto mx-1"></i>

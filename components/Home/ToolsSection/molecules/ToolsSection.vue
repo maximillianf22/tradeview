@@ -16,9 +16,11 @@
         </a>
       </div>
       <div class="w-full lg:w-1/2">
-        <img
-          src="/images/ToolsSection/tools.png"
+        <NuxtImg
+          format="webp"
+          src="/images/ToolsSection/tools.webp"
           alt="Imagen"
+          title="Tools"
           class="max-w-full h-auto max-h-[300px] lg:max-h-[400px] mx-auto"
         />
       </div>

@@ -7,12 +7,12 @@
             @click="openModal"
             class="bg-transparent block xl:hidden hover:bg-primary text-white border w-[50px] h-[30px] mr-2"
             id="menu-toggle-button"
-            aria-label="{{ $t('navbar.open-menu') }}"
+            aria-label="navbar.open-menu"
           >
             <i class="fas fa-bars"></i>
           </button>
           <a href="/">
-            <img
+            <NuxtImg
               src="/images/logo.svg"
               alt="Logo"
               class="h-[30px] lg:h-[45px] w-auto"
@@ -25,7 +25,7 @@
               href="#"
               class="uppercase tracking-[.25em]"
               id="forex-link"
-              aria-label="{{ $t('navbar.forex') }}"
+              aria-label="navbar.forex"
             >
               {{ $t("navbar.forex") }}
             </a>
@@ -33,7 +33,7 @@
               href="#"
               class="uppercase tracking-[.25em]"
               id="stocks-link"
-              aria-label="{{ $t('navbar.stocks') }}"
+              aria-label="navbar.stocks"
             >
               {{ $t("navbar.stocks") }}
             </a>
@@ -41,7 +41,7 @@
               href="#"
               class="uppercase tracking-[.25em]"
               id="futures-link"
-              aria-label="{{ $t('navbar.futures') }}"
+              aria-label="navbar.futures"
             >
               {{ $t("navbar.futures") }}
             </a>
@@ -49,7 +49,7 @@
               href="#"
               class="tracking-[.15em]"
               id="tradegatehub-link"
-              aria-label="{{ $t('navbar.tradegatehub') }}"
+              aria-label="tradegatehub-link"
             >
               TradeGATEHub
             </a>
@@ -60,7 +60,7 @@
             <a
               class="bg-secondary text-white font-medium px-2 hidden lg:flex"
               id="login-link"
-              aria-label="{{ $t('navbar.login') }}"
+              aria-label="login-link"
             >
               {{ $t("navbar.login") }}
               <i class="fas fa-caret-down text-white my-auto mx-1"></i>
@@ -70,7 +70,7 @@
             href="#"
             class="hidden lg:block text-white px-4 border-l"
             id="contact-us-link"
-            aria-label="{{ $t('navbar.contact-us') }}"
+            aria-label="contact-us-link"
           >
             {{ $t("navbar.contact-us") }}
           </a>
